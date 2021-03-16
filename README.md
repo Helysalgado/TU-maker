@@ -10,7 +10,7 @@ Identificar cuáles [TUs, TSSs, TTSs] ya existen y cuales no. A los objetos ya e
 
 ## Determinación de umbrales usando known data
 
-### 1.- Determinar el umbral para TSS**
+### 1.- Determinar el umbral para TSS
 
 Antes de determinar el umbral, primero tenemos que saber la distribución de distancias entre TSSs de los TSS conocidos en RegulonDB.
 
