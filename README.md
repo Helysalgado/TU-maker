@@ -14,7 +14,7 @@ Identificar cuáles [TUs, TSSs, TTSs] ya existen y cuales no. A los objetos ya e
 
 Antes de determinar el umbral, primero tenemos que saber la distribución de distancias entre TSSs de los TSS conocidos en RegulonDB.
 
-** A. Distancia entre TSS y su vecino anterior en la misma orientación [RegulonDB]**
+**A. Distancia entre TSS y su vecino anterior en la misma orientación [RegulonDB]**
 
 Distancias de los Promotores anotados en RegulonDB usando posición y strand.
 
@@ -25,7 +25,7 @@ Pasos:
 * Se obtuvo la distancia de todos los promotores respecto a su Promotor Anterior Vecino en el mismo strand
 * Se reportan solo aquellos promotores cuya distancia es menor a 800 bp.
 
-** B.Distancia entre TSS y su vecino anterior asociados a un gene**
+**B.Distancia entre TSS y su vecino anterior asociados a un gene**
 
 No todos los TSS estan asociados a genes. Una opción es calcular la distancia entre TSS que tienen el mismo nombre [ese nombre usa el gene] y el subfijo p#, donde # es un número consecutivo.
 
